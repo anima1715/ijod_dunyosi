@@ -2,46 +2,46 @@
 <html lang="uz">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ijod Dunyosi</title>
+  <link rel="stylesheet" href="style.css"> <!-- CSS fayl ulanmoqda -->
 </head>
-<body>
+<body class="bg">
 
-  <table border="0" width="100%" height="100%" cellspacing="0" cellpadding="0">
-    <tr>
-      <!-- Chap menyu -->
-      <td width="200" valign="top" bgcolor="#8A2BE2" height="100%">
-        <h2 style="color:white;">Ijod Dunyosi</h2>
-        <ul style="list-style-type:none; padding:0;">
-          <li><a href="#" style="color:white; text-decoration:none;">She'rlar</a></li>
-          <li><a href="#" style="color:white; text-decoration:none;">Hikoyalar</a></li>
-          <li><a href="#" style="color:white; text-decoration:none;">Fikr-mulohazalar</a></li>
-          <li><a href="#" style="color:white; text-decoration:none;">Yozish</a></li>
-        </ul>
-      </td>
+  <div class="container">
+    <!-- Yon menyu -->
+    <aside class="yon-menyu">
+      <h2 class="sarlavha">📜Ijod Dunyosi</h2>
+      <ul class="menyu">
+        <li><a href="fayl1.html" class="aktiv">She'rlar</a></li>
+        <li><a href="hikoya.html">Hikoyalar</a></li>
+        <li><a href="fikr.html">Fikr-mulohazalar</a></li>
+        <li><a href="yozish.html">Yozish</a></li>
+      </ul>
+    </aside>
 
-      <!-- Asosiy qism -->
-      <td valign="top" style="padding:20px;">
-        <!-- Yuqori menyu -->
-        <div>
-          <a href="#">She'rlar</a> |
-          <a href="#">Hikoyalar</a> |
-          <a href="#">Fikr-mulohazalar</a> |
-          <a href="#">Yozish</a>
+    <!-- Asosiy qism -->
+    <main class="asosiy">
+      <header class="yuqori-menyu">
+        <a href="#">She'rlar</a>
+        <a href="hikoya.html">Hikoyalar</a>
+        <a href="fikr.html">Fikr-mulohazalar</a>
+        <a href="yozish.html">Yozish</a>
+      </header>
+
+      <section class="kontent">
+        <div class="box">
+          <h3>Tavsiya etilgan she’rlar</h3>
+          <p><a href="sayt.html">Lolaqizg'aldoq — Muhammad Yusuf</a></p>
         </div>
 
-        <!-- Kontent -->
-        <div>
-          <h3>Tavsiya etilgan she'rlar</h3>
-          <p><a href="#">Lolaqizg'aldoq - Muhammad Yusuf</a></p>
+        <div class="box">
+          <h3>Tavsiya etilgan she’rlar</h3>
+          <p><a href="#">Do‘st — Iqbol Mirzo</a></p>
         </div>
-
-        <div>
-          <h3>Tavsiya etilgan she'rlar</h3>
-          <p><a href="#">Do'st — Iqbol Mirzo</a></p>
-        </div>
-      </td>
-    </tr>
-  </table>
+      </section>
+    </main>
+  </div>
 
 </body>
 </html>
